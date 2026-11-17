@@ -1,0 +1,152 @@
+{
+    "metrics": {
+        "http_req_failed": {
+            "fails": 67,
+            "passes": 0,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "iteration_duration": {
+            "p(99)": 2221.4049760000003,
+            "avg": 1371.0988402985079,
+            "min": 1276.822,
+            "med": 1334.5595,
+            "max": 2237.6815,
+            "p(90)": 1374.6876399999999,
+            "p(95)": 1414.45656
+        },
+        "http_req_waiting": {
+            "avg": 330.5332537313433,
+            "min": 276.1495,
+            "med": 329.6458,
+            "max": 412.7217,
+            "p(90)": 367.41,
+            "p(95)": 375.61111999999997,
+            "p(99)": 412.46067
+        },
+        "vus_max": {
+            "value": 3,
+            "min": 3,
+            "max": 3
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 376.12053,
+            "p(99)": 413.428346,
+            "avg": 330.9834865671642,
+            "min": 276.4746,
+            "med": 329.6458,
+            "max": 414.1226,
+            "p(90)": 367.69788
+        },
+        "http_reqs": {
+            "count": 67,
+            "rate": 2.1466555331071637
+        },
+        "checks": {
+            "passes": 134,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_tls_handshaking": {
+            "p(99)": 564.297198,
+            "avg": 25.02502686567164,
+            "min": 0,
+            "med": 0,
+            "max": 566.277,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_connecting": {
+            "min": 0,
+            "med": 0,
+            "max": 278.2215,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 267.5593320000001,
+            "avg": 11.930674626865672
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 3
+        },
+        "http_req_blocked": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 883.264556,
+            "avg": 39.54895074626866,
+            "min": 0,
+            "med": 0,
+            "max": 883.7255
+        },
+        "iterations": {
+            "count": 67,
+            "rate": 2.1466555331071637
+        },
+        "http_req_duration": {
+            "med": 329.6458,
+            "max": 414.1226,
+            "p(90)": 367.69788,
+            "p(95)": 376.12053,
+            "p(99)": 413.428346,
+            "avg": 330.9834865671642,
+            "min": 276.4746,
+            "thresholds": {
+                "p(95)<300": true
+            }
+        },
+        "http_req_sending": {
+            "max": 1.7964,
+            "p(90)": 0.6077999999999999,
+            "p(95)": 0.9202999999999987,
+            "p(99)": 1.595100000000001,
+            "avg": 0.39387164179104484,
+            "min": 0,
+            "med": 0.356
+        },
+        "data_received": {
+            "rate": 2772.613878634248,
+            "count": 86537
+        },
+        "data_sent": {
+            "count": 12050,
+            "rate": 386.0775996110645
+        },
+        "http_req_receiving": {
+            "p(99)": 0.8271060000000016,
+            "avg": 0.05636119402985075,
+            "min": 0,
+            "med": 0,
+            "max": 1.1181,
+            "p(90)": 0,
+            "p(95)": 0.51335
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+            "response status is 200": {
+                "path": "::response status is 200",
+                "id": "1119f4883e70b9c066ed858b5348728c",
+                "passes": 67,
+                "fails": 0,
+                "name": "response status is 200"
+            },
+            "pizza has a name": {
+                "name": "pizza has a name",
+                "path": "::pizza has a name",
+                "id": "87f6d930c504290631907e96d865988e",
+                "passes": 67,
+                "fails": 0
+            }
+        }
+    }
+}

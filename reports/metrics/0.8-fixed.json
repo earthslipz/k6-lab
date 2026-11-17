@@ -1,0 +1,150 @@
+{
+    "metrics": {
+        "vus": {
+            "max": 5,
+            "value": 1,
+            "min": 1
+        },
+        "checks": {
+            "passes": 225,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 75,
+            "value": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 343.23473199999995,
+            "min": 278.6819,
+            "med": 341.8688,
+            "max": 520.572,
+            "p(90)": 379.9185,
+            "p(95)": 392.77009999999996,
+            "p(99)": 509.65663000000006
+        },
+        "iteration_duration": {
+            "p(95)": 2053.67348,
+            "p(99)": 2110.941988,
+            "avg": 1389.2770226666667,
+            "min": 1279.1252,
+            "med": 1344.0273,
+            "max": 2129.1895,
+            "p(90)": 1385.22728
+        },
+        "http_req_receiving": {
+            "avg": 0.09884933333333333,
+            "min": 0,
+            "med": 0,
+            "max": 3.0018,
+            "p(90)": 0.20052000000000283,
+            "p(95)": 0.5229699999999998,
+            "p(99)": 1.5201720000000103
+        },
+        "http_req_tls_handshaking": {
+            "p(99)": 429.68568,
+            "avg": 25.378812,
+            "min": 0,
+            "med": 0,
+            "max": 430.9126,
+            "p(90)": 0,
+            "p(95)": 312.0224
+        },
+        "data_received": {
+            "count": 103866,
+            "rate": 4926.798927306293
+        },
+        "http_req_duration": {
+            "min": 278.6819,
+            "med": 341.8688,
+            "max": 520.572,
+            "p(90)": 379.9185,
+            "p(95)": 392.77009999999996,
+            "p(99)": 509.65663000000006,
+            "avg": 343.23473199999995
+        },
+        "http_req_connecting": {
+            "p(95)": 256.0045,
+            "p(99)": 263.32838000000004,
+            "avg": 17.397536,
+            "min": 0,
+            "med": 0,
+            "max": 272.8174,
+            "p(90)": 0
+        },
+        "http_req_sending": {
+            "avg": 0.3521719999999999,
+            "min": 0,
+            "med": 0.3695,
+            "max": 1.156,
+            "p(90)": 0.6242800000000008,
+            "p(95)": 0.70992,
+            "p(99)": 0.8273660000000023
+        },
+        "iterations": {
+            "count": 75,
+            "rate": 3.557563779754414
+        },
+        "vus_max": {
+            "value": 5,
+            "min": 5,
+            "max": 5
+        },
+        "http_req_blocked": {
+            "p(95)": 606.9659,
+            "p(99)": 729.584218,
+            "avg": 45.350273333333334,
+            "min": 0,
+            "med": 0,
+            "max": 730.4051,
+            "p(90)": 0
+        },
+        "http_req_waiting": {
+            "max": 519.8601,
+            "p(90)": 379.5256,
+            "p(95)": 392.30870999999996,
+            "p(99)": 508.8551900000001,
+            "avg": 342.78371066666665,
+            "min": 278.1705,
+            "med": 341.357
+        },
+        "http_reqs": {
+            "count": 75,
+            "rate": 3.557563779754414
+        },
+        "data_sent": {
+            "rate": 914.2938913968844,
+            "count": 19275
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+            "pizza request accepted": {
+                "name": "pizza request accepted",
+                "path": "::pizza request accepted",
+                "id": "f906027e6f30e712c6b1bb3ed59f6f75",
+                "passes": 75,
+                "fails": 0
+            },
+            "pepperoni is excluded": {
+                "name": "pepperoni is excluded",
+                "path": "::pepperoni is excluded",
+                "id": "28e63c98189ce67dc1e41c923f930783",
+                "passes": 75,
+                "fails": 0
+            },
+            "no knife needed": {
+                "name": "no knife needed",
+                "path": "::no knife needed",
+                "id": "974be63fae97a0f98b05fc7d2ec16d8a",
+                "passes": 75,
+                "fails": 0
+            }
+        }
+    }
+}

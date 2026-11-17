@@ -1,0 +1,196 @@
+{
+    "root_group": {
+        "groups": {
+            "home": {
+                "groups": {},
+                "checks": {
+                    "home loads": {
+                        "id": "ad9330014f1768eb21d18e458c2db787",
+                        "passes": 48,
+                        "fails": 0,
+                        "name": "home loads",
+                        "path": "::home::home loads"
+                    }
+                },
+                "name": "home",
+                "path": "::home",
+                "id": "f55eb66156c7d05104505c362878691e"
+            },
+            "quotes": {
+                "name": "quotes",
+                "path": "::quotes",
+                "id": "9e2f47f8880f01e0d60415b2d2d07c7c",
+                "groups": {},
+                "checks": {
+                    "quotes are available": {
+                        "passes": 48,
+                        "fails": 0,
+                        "name": "quotes are available",
+                        "path": "::quotes::quotes are available",
+                        "id": "aa030ec81886caf78ad7c8cb11b244d3"
+                    }
+                }
+            },
+            "recommendation": {
+                "name": "recommendation",
+                "path": "::recommendation",
+                "id": "ae314d7b75d0a0f15cb558215c46c014",
+                "groups": {},
+                "checks": {
+                    "recommendation responds": {
+                        "name": "recommendation responds",
+                        "path": "::recommendation::recommendation responds",
+                        "id": "4690de54171b4bb145126c78f0b56064",
+                        "passes": 48,
+                        "fails": 0
+                    },
+                    "recommended pizza is named": {
+                        "id": "51e510f2699da659735e6891e3d07a1a",
+                        "passes": 48,
+                        "fails": 0,
+                        "name": "recommended pizza is named",
+                        "path": "::recommendation::recommended pizza is named"
+                    }
+                }
+            }
+        },
+        "checks": {},
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "metrics": {
+        "data_sent": {
+            "count": 39934,
+            "rate": 284.31075023749764
+        },
+        "http_req_waiting": {
+            "avg": 305.7227145833333,
+            "min": 253.6229,
+            "med": 285.3812,
+            "max": 527.14,
+            "p(90)": 370.99008000000003,
+            "p(95)": 392.74250499999994,
+            "p(99)": 422.24742899999984
+        },
+        "iteration_duration": {
+            "p(99)": 7751.672056,
+            "avg": 6054.255945833332,
+            "min": 4615.1842,
+            "med": 6040.2894,
+            "max": 7956.0023,
+            "p(90)": 7221.14536,
+            "p(95)": 7368.98853
+        },
+        "iterations": {
+            "count": 48,
+            "rate": 0.3417367659488127
+        },
+        "http_req_tls_handshaking": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 271.12012999999996,
+            "avg": 9.634309722222222,
+            "min": 0,
+            "med": 0,
+            "max": 321.0028
+        },
+        "http_req_duration": {
+            "p(95)": 393.62884999999994,
+            "p(99)": 422.91156199999983,
+            "avg": 306.2475979166667,
+            "min": 254.7021,
+            "med": 286.02065000000005,
+            "max": 527.14,
+            "p(90)": 371.41049
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 393.62884999999994,
+            "p(99)": 422.91156199999983,
+            "avg": 306.2475979166667,
+            "min": 254.7021,
+            "med": 286.02065000000005,
+            "max": 527.14,
+            "p(90)": 371.41049
+        },
+        "http_req_blocked": {
+            "max": 648.9285,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 547.2552539999999,
+            "avg": 19.34755555555556,
+            "min": 0,
+            "med": 0
+        },
+        "http_reqs": {
+            "count": 144,
+            "rate": 1.0252102978464381
+        },
+        "http_req_receiving": {
+            "med": 0,
+            "max": 6.333,
+            "p(90)": 0.51366,
+            "p(95)": 1.0137699999999998,
+            "p(99)": 3.1023879999999897,
+            "avg": 0.17060277777777777,
+            "min": 0
+        },
+        "group_duration": {
+            "avg": 325.68534722222216,
+            "min": 254.7021,
+            "med": 289.3064,
+            "max": 944.1526,
+            "p(90)": 384.71727,
+            "p(95)": 410.157485,
+            "p(99)": 813.2967639999998
+        },
+        "http_req_sending": {
+            "avg": 0.3542805555555557,
+            "min": 0,
+            "med": 0.38544999999999996,
+            "max": 1.0792,
+            "p(90)": 0.5740500000000004,
+            "p(95)": 0.7179449999999997,
+            "p(99)": 0.9315969999999993
+        },
+        "http_req_failed": {
+            "fails": 144,
+            "passes": 0,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "http_req_connecting": {
+            "p(99)": 273.15308999999996,
+            "avg": 9.313669444444445,
+            "min": 0,
+            "med": 0,
+            "max": 276.3835,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "vus_max": {
+            "min": 5,
+            "max": 5,
+            "value": 5
+        },
+        "checks": {
+            "passes": 192,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "data_received": {
+            "count": 279478,
+            "rate": 1989.7480807050472
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 5
+        }
+    }
+}
